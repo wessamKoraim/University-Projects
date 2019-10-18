@@ -15,6 +15,7 @@ Artificial Intelligence
 
 Operating Systems  
 Microprocessors  
+Digital Logic  
 Digital Communications  
 Communications Systems  
 Computer Architecture  
