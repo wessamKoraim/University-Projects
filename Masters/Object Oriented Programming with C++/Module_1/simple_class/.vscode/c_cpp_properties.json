@@ -1,0 +1,17 @@
+{
+    "configurations": [
+        {
+            "name": "All",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../../gcheck/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "${default}"
+        }
+    ],
+    "version": 4
+}
