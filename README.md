@@ -2,7 +2,7 @@
 ---
 ## MSc - Control, Robotics and Autonomous Systems at Aalto University, Finland
 
-### Courses Finished
+### Courses
 
 Programming Parallel Computers  
 Object Oriented Programming with C++  
@@ -11,7 +11,7 @@ Artificial Intelligence
 ---
 ## BSc - Communications and Electronics at Alexandria University, Egypt
 
-### Courses Finished
+### Courses
 
 Operating Systems  
 Microprocessors  
