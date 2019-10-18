@@ -4,7 +4,7 @@
 ---
 ### Courses Finished
 
-* Programming Parallel Computers
-* Object Oriented Programming with C++
+Programming Parallel Computers  
+Object Oriented Programming with C++  
 
 ## BSc - Communications and Electronics at Alexandria University, Egypt
