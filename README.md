@@ -6,6 +6,7 @@
 
 Programming Parallel Computers  
 Object Oriented Programming with C++  
+Project Work   
 Artificial Intelligence  
 
 ---
