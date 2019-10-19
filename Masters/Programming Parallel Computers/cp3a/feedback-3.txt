@@ -1,9 +1,0 @@
-0
-
-Looks good!
-
-This is probably helpful (but needs some effort to get working with doubles): http://ppc.cs.aalto.fi/ch2/v5/
-
---
-Grading by:
-jukka

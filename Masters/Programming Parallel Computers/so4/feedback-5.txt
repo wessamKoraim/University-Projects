@@ -1,9 +1,0 @@
-0
-
-Looks good!
-
-Maybe you could do an early return in the first if-block to avoid the long else-block?
-
---
-Grading by:
-matias
