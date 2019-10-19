@@ -1,0 +1,11 @@
+0
+
+The "register" specifier is a deprecated hint for the optimizer to keep the
+variable in a cpu register. I doubt it makes any difference here.
+
+I suspect the performance is limited by having to make more than two memory
+accesses per arithmetic operation.
+
+--
+Grading by:
+juhok

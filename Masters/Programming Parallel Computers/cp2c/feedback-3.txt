@@ -1,0 +1,7 @@
+-1
+
+There is very little vectorization in the code: you are reading scalars from memory, and doing scalar multiplications. Only additions are vectorized. You should allocate an array of 'double4_t' vectors and pack the normalized data in these vectors. Then in the performance-critical part you would read vectors, do vector multiplication, and do vector addition.
+
+--
+Grading by:
+jukka
