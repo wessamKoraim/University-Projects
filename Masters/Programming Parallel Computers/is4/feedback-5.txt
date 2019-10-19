@@ -1,0 +1,16 @@
+0
+
+Some simple ways of making this a bit faster:
+* Precompute inverses of X and Y into double4_t variables to avoid divisions in the innermost loops.
+* Sum a and b using vector arithmetic, then extract components from the sum, instead of summing components of a and b separately.
+
+There might be an easier way of using OpenMP thread local variables, compared to this:
+    Helper[len_y - 1].r = LoopResult;
+    Helper[len_y - 1].h = tmp;
+In addition to the extra space usage, it is rather easy to accidentally introduce a data race by getting one index wrong.
+Please see the first example on this page:
+http://ppc.cs.aalto.fi/ch3/examples/
+
+--
+Grading by:
+matias
