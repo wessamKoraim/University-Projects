@@ -8,7 +8,7 @@ sudo apt install libbox2d-dev
 ```
 ### How to build and run the game (make sure you have BOX2D and SFML installed to the standard locations)
 
-#### Using Cmake
+#### Using CMake
 ```
 cd src
 cd build  
