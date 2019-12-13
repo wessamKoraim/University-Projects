@@ -18,5 +18,7 @@ make
 ```
 #### Using gcc
 ```
-g++ -Wall  map.cpp main.cpp -lsfml-graphics -lsfml-window -lsfml-system -lBox2D
+cd src
+cd build
+g++ -Wall  ../map.cpp ../main.cpp -lsfml-graphics -lsfml-window -lsfml-system -lBox2D -o game
 ```
