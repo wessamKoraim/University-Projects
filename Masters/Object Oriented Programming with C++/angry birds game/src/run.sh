@@ -1,1 +1,1 @@
-cd build/ && make && ./game && exit
+cd build/ && ./game && exit

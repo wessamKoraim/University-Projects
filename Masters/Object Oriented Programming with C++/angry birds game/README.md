@@ -1,8 +1,13 @@
 # OOP using C++ course
+## Angry Birds Game
+<p align="center"> 
+<img src="https://github.com/wessamKoraim/University-Projects/blob/master/Masters/Object%20Oriented%20Programming%20with%20C%2B%2B/angry%20birds%20game/src/Images/level_1.png" width="300px">
+</p>
+
 ---
-## Enemies Branch
 ### Installing SFML and BOX2D
 ```
+sudo apt install build-essential
 sudo apt install libsfml-dev
 sudo apt install libbox2d-dev
 ```
