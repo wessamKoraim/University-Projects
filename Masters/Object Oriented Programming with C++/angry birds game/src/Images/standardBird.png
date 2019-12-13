@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+<head data-suburl="">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>CPlusPlus/angry-birds-2019-5: Project supervisor is Pasi - src/images/standardBird.png at birds -  angry-birds-2019-5 - Courses git</title>
+	<link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+
+	<script>
+		if ('serviceWorker' in navigator) {
+  			window.addEventListener('load', function() {
+    			navigator.serviceWorker.register('/serviceworker.js').then(function(registration) {
+      				
+      				console.log('ServiceWorker registration successful with scope: ', registration.scope);
+				}, function(err) {
+					
+      				console.log('ServiceWorker registration failed: ', err);
+    			});
+  			});
+		}
+
+	</script>
+
+	<meta name="theme-color" content="#6cc644">
+	<meta name="author" content="CPlusPlus" />
+	<meta name="description" content="angry-birds-2019-5 - Project supervisor is Pasi" />
+	<meta name="keywords" content="go,git,self-hosted,gitea">
+	<meta name="referrer" content="no-referrer" />
+	<meta name="_csrf" content="JmITY7OkvNgzXEFUa7ObdRcMtEM6MTU3NDUxMjY2OTE2OTc0NTI1Nw==" />
+	<meta name="_suburl" content="" />
+	
+		<meta name="_uid" content="138" />
+	
+	
+	
+
+
+	<script>
+	/*
+	@licstart  The following is the entire license notice for the
+        JavaScript code in this page.
+
+	Copyright (c) 2016 The Gitea Authors
+	Copyright (c) 2015 The Gogs Authors
+
+	Permission is hereby granted, free of charge, to any person obtaining a copy
+	of this software and associated documentation files (the "Software"), to deal
+	in the Software without restriction, including without limitation the rights
+	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+	copies of the Software, and to permit persons to whom the Software is
+	furnished to do so, subject to the following conditions:
+
+	The above copyright notice and this permission notice shall be included in
+	all copies or substantial portions of the Software.
+
+	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+	THE SOFTWARE.
+	---
+	Licensing information for additional javascript libraries can be found at:
+	  {{AppSubUrl}}/vendor/librejs.html
+
+	@licend  The above is the entire license notice
+        for the JavaScript code in this page.
+	*/
+	</script>
+
+	<link rel="shortcut icon" href="/img/favicon.png" />
+	<link rel="mask-icon" href="/img/gitea-safari.svg" color="#609926">
+	<link rel="preload" href="/vendor/assets/font-awesome/css/font-awesome.min.css" as="style" onload="this.rel='stylesheet'">
+	<noscript><link rel="stylesheet" href="/vendor/assets/font-awesome/css/font-awesome.min.css"></noscript>
+	<link rel="stylesheet" href="/vendor/assets/octicons/octicons.min.css">
+
+
+
+
+
+
+
+	
+	<link rel="stylesheet" href="/vendor/plugins/semantic/semantic.min.css">
+	<link rel="stylesheet" href="/css/index.css?v=2ad9af822b1922c2a3b2a959b70067d5">
+	<noscript>
+		<style>
+			.dropdown:hover > .menu { display: block; }
+			.ui.secondary.menu .dropdown.item > .menu { margin-top: 0; }
+		</style>
+	</noscript>
+
+
+	<link rel="stylesheet" href="/vendor/plugins/highlight/github.css">
+
+
+
+
+
+	<style class="list-search-style"></style>
+
+	<script src="/vendor/plugins/promise-polyfill/polyfill.min.js"></script>
+	<script src="/vendor/plugins/cssrelpreload/loadCSS.min.js"></script>
+	<script src="/vendor/plugins/cssrelpreload/cssrelpreload.min.js"></script>
+
+	<meta property="og:title" content="angry-birds-2019-5" />
+	<meta property="og:type" content="object" />
+	<meta property="og:image" content="https://courses-git.comnet.aalto.fi/avatars/16" />
+	<meta property="og:url" content="https://courses-git.comnet.aalto.fi/CPlusPlus/angry-birds-2019-5" />
+	
+	<meta property="og:description" content="Project supervisor is Pasi" />
+	
+	<meta property="og:site_name" content="Courses git" />
+
+
+	
+
+
+</head>
+<body>
+	
+
+	<div class="full height">
+		<noscript>Denna sida fungerar bättre med Javascript igång.</noscript>
+
+		
+
+		
+			<div class="ui top secondary stackable main menu following bar light">
+				<div class="ui container" id="navbar">
+	<div class="item brand" style="justify-content: space-between;">
+		<a href="/">
+			<img class="ui mini image" src="/img/gitea-sm.png">
+		</a>
+		<div class="ui basic icon button mobile-only" id="navbar-expand-toggle">
+			<i class="sidebar icon"></i>
+		</div>
+	</div>
+
+	
+		<a class="item " href="/">Instrumentpanel</a>
+		<a class="item " href="/issues">Problem</a>
+		<a class="item " href="/pulls">Pull förfrågningar</a>
+		<a class="item " href="/explore/repos">Utforska</a>
+	
+
+	
+
+	
+
+	
+		<div class="right stackable menu">
+			<a href="/notifications" class="item poping up" data-content='Notiser' data-variation="tiny inverted">
+				<span class="text">
+					<i class="fitted octicon octicon-bell"></i>
+					<span class="sr-mobile-only">Notiser</span>
+
+					
+				</span>
+			</a>
+
+			<div class="ui dropdown jump item poping up" data-content="Skapa…" data-variation="tiny inverted">
+				<span class="text">
+					<i class="fitted octicon octicon-plus"></i>
+					<span class="sr-mobile-only">Skapa…</span>
+					<i class="fitted octicon octicon-triangle-down not-mobile"></i>
+				</span>
+				<div class="menu">
+					<a class="item" href="/repo/create">
+						<i class="octicon octicon-plus"></i> Ny utvecklingskatalog
+					</a>
+					<a class="item" href="/repo/migrate">
+						<i class="octicon octicon-repo-clone"></i> Ny migrering
+					</a>
+					
+				</div>
+			</div>
+
+			<div class="ui dropdown jump item poping up" tabindex="-1" data-content="Profil och Inställningar…" data-variation="tiny inverted">
+				<span class="text">
+					<img class="ui tiny avatar image" src="https://secure.gravatar.com/avatar/97987cc5b5fc840e494562fbf444a8b9?d=identicon">
+					<span class="sr-only">Profil och Inställningar…</span>
+					<span class="mobile-only">nordsts2</span>
+					<i class="fitted octicon octicon-triangle-down not-mobile" tabindex="-1"></i>
+				</span>
+				<div class="menu user-menu" tabindex="-1">
+					<div class="ui header">
+						Inloggad som <strong>nordsts2</strong>
+					</div>
+
+					<div class="divider"></div>
+					<a class="item" href="/nordsts2">
+						<i class="octicon octicon-person"></i>
+						Profil
+					</a>
+					<a class="item" href="/nordsts2?tab=stars">
+						<i class="octicon octicon-star"></i>
+						Stjärnmärkt
+					</a>
+					<a class=" item" href="/user/settings">
+						<i class="octicon octicon-settings"></i>
+						Inställningar
+					</a>
+					<a class="item" target="_blank" rel="noopener noreferrer" href="https://docs.gitea.io">
+						<i class="octicon octicon-question"></i>
+						Hjälp
+					</a>
+					
+
+					<div class="divider"></div>
+					<a class="item" href="/user/logout">
+						<i class="octicon octicon-sign-out"></i>
+						Logga ut
+					</a>
+				</div>
+			</div>
+		</div>
+
+	
+</div>
+
+			</div>
+		
+
+
+<div class="repository file list">
+	<div class="header-wrapper">
+
+	<div class="ui container">
+		<div class="repo-header">
+			<div class="ui huge breadcrumb repo-title">
+				
+				<i class="mega-octicon octicon-lock"></i>
+				
+				<a href="/CPlusPlus">CPlusPlus</a>
+				<div class="divider"> / </div>
+				<a href="/CPlusPlus/angry-birds-2019-5">angry-birds-2019-5</a>
+				
+				
+				
+			</div>
+			<div class="repo-buttons">
+				<div class="ui labeled button" tabindex="0">
+					<a class="ui compact basic button" href="/CPlusPlus/angry-birds-2019-5/action/unwatch?redirect_to=%2fCPlusPlus%2fangry-birds-2019-5%2fsrc%2fbranch%2fbirds%2fsrc%2fimages%2fstandardBird.png">
+						<i class="icon fa-eye"></i>Avsluta bevakning
+					</a>
+					<a class="ui basic label" href="/CPlusPlus/angry-birds-2019-5/watchers">
+						19
+					</a>
+				</div>
+				<div class="ui labeled button" tabindex="0">
+					<a class="ui compact basic button" href="/CPlusPlus/angry-birds-2019-5/action/star?redirect_to=%2fCPlusPlus%2fangry-birds-2019-5%2fsrc%2fbranch%2fbirds%2fsrc%2fimages%2fstandardBird.png">
+						<i class="icon star outline"></i>Stjärnmärk
+					</a>
+					<a class="ui basic label" href="/CPlusPlus/angry-birds-2019-5/stars">
+						1
+					</a>
+				</div>
+				
+					<div class="ui labeled button " tabindex="0">
+						<a class="ui compact basic button " href="/repo/fork/359" data-position="top center" data-variation="tiny">
+							<i class="octicon octicon-repo-forked"></i>Förgrening
+						</a>
+						<a class="ui basic label" href="/CPlusPlus/angry-birds-2019-5/forks">
+							0
+						</a>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+
+
+	<div class="ui tabs container">
+		<div class="ui tabular stackable menu navbar">
+			
+			<a class="active item" href="/CPlusPlus/angry-birds-2019-5/src/branch/birds">
+				<i class="octicon octicon-code"></i> Kod
+			</a>
+			
+
+			
+				<a class=" item" href="/CPlusPlus/angry-birds-2019-5/issues">
+					<i class="octicon octicon-issue-opened"></i> Ärenden <span class="ui gray small label">0</span>
+				</a>
+			
+
+			
+
+			
+				<a class=" item" href="/CPlusPlus/angry-birds-2019-5/pulls">
+					<i class="octicon octicon-git-pull-request"></i> Pull-förfrågningar <span class="ui gray small label">0</span>
+				</a>
+			
+
+			
+			<a class=" item" href="/CPlusPlus/angry-birds-2019-5/releases">
+				<i class="octicon octicon-tag"></i> Släpp <span class="ui gray small label">0</span>
+			</a>
+			
+
+			
+				<a class=" item" href="/CPlusPlus/angry-birds-2019-5/wiki" >
+					<i class="octicon octicon-book"></i> Wiki
+				</a>
+			
+
+			
+				<a class=" item" href="/CPlusPlus/angry-birds-2019-5/activity">
+					<i class="octicon octicon-pulse"></i> Aktiviteter
+				</a>
+			
+
+			
+
+			
+		</div>
+	</div>
+	<div class="ui tabs divider"></div>
+
+</div>
+
+	<div class="ui container">
+		
+
+
+
+		<div class="ui repo-description">
+			<div id="repo-desc">
+				<span class="description has-emoji">Project supervisor is Pasi</span>
+				<a class="link" href=""></a>
+			</div>
+			
+		</div>
+		<div class="ui" id="repo-topics">
+		
+		
+		</div>
+		
+		<div class="hide" id="validate_prompt">
+			<span id="count_prompt">Du kan inte välja fler än 25 ämnen</span>
+			<span id="format_prompt">Ämnen måste starta med en bokstav eller siffra, kan innehålla bindestreck (&#39;-&#39;) och vara max 35 tecken långa.</span>
+		</div>
+		
+		<div class="ui segment sub-menu">
+	<div class="ui two horizontal center link list">
+		
+			<div class="item">
+				<a class="ui" href="/CPlusPlus/angry-birds-2019-5/commits/branch/birds"><i class="octicon octicon-history"></i> <b>21</b> Incheckningar</a>
+			</div>
+		
+		
+			<div class="item">
+				<a class="ui" href="/CPlusPlus/angry-birds-2019-5/branches/"><i class="octicon octicon-git-branch"></i> <b>3</b> Grenar</a>
+			</div>
+		
+	</div>
+</div>
+
+		<div class="ui stackable secondary menu mobile--margin-between-items mobile--no-negative-margins">
+			<div class="fitted item choose reference">
+	<div class="ui floating filter dropdown custom" data-can-create-branch="true" data-no-results="Inga resultat hittades.">
+		<div class="ui basic small compact button" @click="menuVisible = !menuVisible" @keyup.enter="menuVisible = !menuVisible">
+			<span class="text">
+				<i class="octicon octicon-git-branch"></i>
+				Gren:
+				<strong>birds</strong>
+			</span>
+			<i class="dropdown icon"></i>
+		</div>
+		<div class="data" style="display: none" data-mode="branches">
+			
+				<div class="item branch selected" data-url="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png">birds</div>
+			
+				<div class="item branch " data-url="/CPlusPlus/angry-birds-2019-5/src/branch/enemies/src/images/standardBird.png">enemies</div>
+			
+				<div class="item branch " data-url="/CPlusPlus/angry-birds-2019-5/src/branch/master/src/images/standardBird.png">master</div>
+			
+			
+		</div>
+		<div class="menu transition" :class="{visible: menuVisible}" v-if="menuVisible" v-cloak>
+			<div class="ui icon search input">
+				<i class="filter icon"></i>
+				<input name="search" ref="searchField" v-model="searchTerm" @keydown="keydown($event)" placeholder="Filtrera gren eller tagg...">
+			</div>
+			<div class="header branch-tag-choice">
+				<div class="ui grid">
+					<div class="two column row">
+						<a class="reference column" href="#" @click="mode = 'branches'; focusSearchField()">
+							<span class="text" :class="{black: mode == 'branches'}">
+								<i class="octicon octicon-git-branch"></i> Grenar
+							</span>
+						</a>
+						<a class="reference column" href="#" @click="mode = 'tags'; focusSearchField()">
+							<span class="text" :class="{black: mode == 'tags'}">
+								<i class="reference tags icon"></i> Taggar
+							</span>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="scrolling menu" ref="scrollContainer">
+				<div v-for="(item, index) in filteredItems" :key="item.name" class="item" :class="{selected: item.selected, active: active == index}" @click="selectItem(item)" :ref="'listItem' + index">${ item.name }</div>
+				<div class="item" v-if="showCreateNewBranch" :class="{active: active == filteredItems.length}" :ref="'listItem' + filteredItems.length">
+					<a href="#" @click="createNewBranch()">
+						<div>
+							<i class="octicon octicon-git-branch"></i>
+							Skapa branchen <strong>${ searchTerm }</strong>
+						</div>
+						<div class="text small">
+							
+								från &#39;birds&#39;
+							
+						</div>
+					</a>
+					<form ref="newBranchForm" action="/CPlusPlus/angry-birds-2019-5/branches/_new/branch/birds" method="post">
+						<input type="hidden" name="_csrf" value="JmITY7OkvNgzXEFUa7ObdRcMtEM6MTU3NDUxMjY2OTE2OTc0NTI1Nw==">
+						<input type="hidden" name="new_branch_name" v-model="searchTerm">
+					</form>
+				</div>
+			</div>
+			<div class="message" v-if="showNoResults">${ noResults }</div>
+		</div>
+	</div>
+</div>
+
+			
+			
+			
+			
+				<div class="fitted item"><span class="ui breadcrumb repo-path"><a class="section" href="/CPlusPlus/angry-birds-2019-5/src/branch/birds" title="angry-birds-2019-5">angry-birds-2019-5</a><span class="divider">/</span><span class="section"><a href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src" title="src">src</a></span><span class="divider">/</span><span class="section"><a href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images" title="images">images</a></span><span class="divider">/</span><span class="active section" title="standardBird.png">standardBird.png</span></span></div>
+			
+			<div class="right fitted item" id="file-buttons">
+				<div class="ui tiny blue buttons">
+					
+					
+				</div>
+
+			</div>
+			<div class="fitted item">
+
+				
+				
+			</div>
+		</div>
+		
+			<div class="tab-size-8 non-diff-file-content">
+	<h4 class="ui top attached header" id="repo-read-file">
+		<div class="ui stackable grid">
+			<div class="eight wide column">
+				
+					<i class="file text outline icon ui left"></i>
+					<strong>standardBird.png</strong> <span class="text grey normal">6.6KB</span>
+				
+			</div>
+			<div class="eight wide right aligned column">
+				
+					<div class="ui right file-actions">
+						<div class="ui buttons">
+							<a class="ui button" href="/CPlusPlus/angry-birds-2019-5/raw/branch/birds/src/images/standardBird.png">Rå</a>
+							
+								<a class="ui button" href="/CPlusPlus/angry-birds-2019-5/src/commit/6d1af80d68984a319f9975053f4d49ef722a9b27/src/images/standardBird.png">Permalänk</a>
+							
+							
+							<a class="ui button" href="/CPlusPlus/angry-birds-2019-5/commits/branch/birds/src/images/standardBird.png">Historik</a>
+						</div>
+						
+					</div>
+				
+			</div>
+		</div>
+	</h4>
+	<div class="ui attached table unstackable segment">
+		<div class="file-view  has-emoji">
+			
+				<div class="view-raw ui center">
+					
+						<img src="/CPlusPlus/angry-birds-2019-5/raw/branch/birds/src/images/standardBird.png">
+					
+				</div>
+			
+		</div>
+	</div>
+</div>
+
+<script>
+function submitDeleteForm() {
+    var message = prompt("delete_confirm_message\n\ndelete_commit_summary", "Delete ''");
+    if (message != null) {
+        $("#delete-message").val(message);
+        $("#delete-file-form").submit()
+    }
+}
+</script>
+
+		
+	</div>
+</div>
+
+
+	
+
+	</div>
+
+	
+
+	<footer>
+	<div class="ui container">
+		<div class="ui left">
+			© Gitea  Sida: <strong>9ms</strong> Mall: <strong>1ms</strong>
+		</div>
+		<div class="ui right links">
+			
+			<div class="ui language bottom floating slide up dropdown link item">
+				<i class="world icon"></i>
+				<div class="text">svenska</div>
+				<div class="menu">
+					
+						<a lang="sv-SE" class="item active selected" href="#">svenska</a>
+					
+						<a lang="en-US" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=en-US">English</a>
+					
+						<a lang="zh-CN" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=zh-CN">简体中文</a>
+					
+						<a lang="zh-HK" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=zh-HK">繁體中文（香港）</a>
+					
+						<a lang="zh-TW" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=zh-TW">繁體中文（台灣）</a>
+					
+						<a lang="de-DE" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=de-DE">Deutsch</a>
+					
+						<a lang="fr-FR" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=fr-FR">français</a>
+					
+						<a lang="nl-NL" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=nl-NL">Nederlands</a>
+					
+						<a lang="lv-LV" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=lv-LV">latviešu</a>
+					
+						<a lang="ru-RU" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=ru-RU">русский</a>
+					
+						<a lang="uk-UA" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=uk-UA">Українська</a>
+					
+						<a lang="ja-JP" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=ja-JP">日本語</a>
+					
+						<a lang="es-ES" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=es-ES">español</a>
+					
+						<a lang="pt-BR" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=pt-BR">português do Brasil</a>
+					
+						<a lang="pl-PL" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=pl-PL">polski</a>
+					
+						<a lang="bg-BG" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=bg-BG">български</a>
+					
+						<a lang="it-IT" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=it-IT">italiano</a>
+					
+						<a lang="fi-FI" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=fi-FI">suomi</a>
+					
+						<a lang="tr-TR" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=tr-TR">Türkçe</a>
+					
+						<a lang="cs-CZ" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=cs-CZ">čeština</a>
+					
+						<a lang="sr-SP" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=sr-SP">српски</a>
+					
+						<a lang="ko-KR" class="item " href="/CPlusPlus/angry-birds-2019-5/src/branch/birds/src/images/standardBird.png?lang=ko-KR">한국어</a>
+					
+				</div>
+			</div>
+			<a href="/vendor/librejs.html" data-jslicense="1">JavaScript licenses</a>
+			
+		</div>
+	</div>
+</footer>
+
+
+	<script src="/vendor/plugins/jquery/jquery.min.js?v=3.4.1"></script>
+	<script src="/vendor/plugins/jquery-migrate/jquery-migrate.min.js?v=3.0.1"></script>
+	<script src="/vendor/plugins/jquery.areyousure/jquery.are-you-sure.js"></script>
+
+
+
+
+
+	<script src="/vendor/plugins/highlight/highlight.pack.js"></script>
+
+
+
+
+
+
+
+	<script src="/vendor/plugins/emojify/emojify.min.js"></script>
+	<script src="/vendor/plugins/clipboard/clipboard.min.js"></script>
+	<script src="/vendor/plugins/vue/vue.min.js"></script>
+
+	
+	<script src="/vendor/plugins/semantic/semantic.min.js"></script>
+	<script src="/js/index.js?v=2ad9af822b1922c2a3b2a959b70067d5"></script>
+
+
+</body>
+</html>
+
