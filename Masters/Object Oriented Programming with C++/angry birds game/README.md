@@ -9,7 +9,8 @@
 </p>
 <p align="center"> 
 <img src="https://github.com/wessamKoraim/University-Projects/blob/master/Masters/Object%20Oriented%20Programming%20with%20C%2B%2B/angry%20birds%20game/src/Images/level_3.png" width="1200px">
-</p>
+</p>  
+
 ---
 ### Installing SFML and BOX2D
 ```
