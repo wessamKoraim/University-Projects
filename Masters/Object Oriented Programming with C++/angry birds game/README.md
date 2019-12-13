@@ -19,7 +19,7 @@
 
 ---
 ### Installing SFML and BOX2D
-```
+```sh
 sudo apt install build-essential
 sudo apt install libsfml-dev
 sudo apt install libbox2d-dev
@@ -27,7 +27,7 @@ sudo apt install libbox2d-dev
 ### How to build and run the game (make sure you have BOX2D and SFML installed to the standard locations)
 
 #### Using CMake
-```
+```sh
 cd src
 cd build  
 cmake ..  
@@ -35,7 +35,7 @@ make
 ./game
 ```
 #### Using gcc
-```
+```sh
 cd src
 cd build
 g++ -Wall  ../map.cpp ../main.cpp -lsfml-graphics -lsfml-window -lsfml-system -lBox2D -o game
