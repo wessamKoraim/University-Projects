@@ -1,13 +1,16 @@
 # OOP using C++ course
 ---
 ## Enemies Branch
-
+### Installing SFML and BOX2D
+```
+sudo apt install libsfml-dev
+sudo apt install libbox2d-dev
+```
 ### How to build and run the game (make sure you have BOX2D and SFML installed to the standard locations)
 
 #### Using Cmake
 ```
 cd src
-mkdir build  
 cd build  
 cmake ..  
 make  
