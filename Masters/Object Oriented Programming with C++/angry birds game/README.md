@@ -18,11 +18,9 @@
 </p>  
 
 ---
-### Installing SFML and BOX2D
+### Installing Building Essentials, SFML and BOX2D
 ```sh
-sudo apt install build-essential
-sudo apt install libsfml-dev
-sudo apt install libbox2d-dev
+sudo apt install build-essential libsfml-dev libbox2d-dev
 ```
 ### How to build and run the game (make sure you have BOX2D and SFML installed to the standard locations)
 
